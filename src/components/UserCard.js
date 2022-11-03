@@ -18,9 +18,9 @@ const UserCard = () => {
       <section className="user-card__section-2">
         <nav>
           <ul className="user-section-2__ul">
-            <li><a>Daily</a></li>
-            <li><a>Weekly</a></li>
-            <li><a>Monthly</a></li>
+            <li><a href=".">Daily</a></li>
+            <li><a href="." id="weekly">Weekly</a></li>
+            <li><a href="." >Monthly</a></li>
           </ul>
         </nav>
       </section>

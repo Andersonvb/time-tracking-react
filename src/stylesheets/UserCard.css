@@ -64,15 +64,23 @@ li {
 
 .user-card__section-2 a {
   color: var(--desaturated-blue);
+  text-decoration: none;
+}
+
+.user-card__section-2 a:hover {
+  color: #fff;
+}
+
+#weekly {
+  color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
-
   .user-card {
     width: 255px;
     height: 520px;
   }
-  
+
   .user-card__section-1 {
     padding: 0 29px;
     height: 355px;
@@ -109,6 +117,4 @@ li {
   .user-section-2__ul li {
     width: 100%;
   }
- 
-
 }

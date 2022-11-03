@@ -29,6 +29,11 @@
   height: 122px;
   border-radius: 10px;
   background-color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.card__info:hover {
+  background-color: var(--desaturated-blue);
 }
 
 .info__section-1 {
