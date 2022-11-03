@@ -1,0 +1,114 @@
+li {
+  list-style: none;
+}
+
+.user-card {
+  min-width: 327px;
+  height: 203px;
+}
+
+.user-card__section-1 {
+  position: relative;
+  height: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  z-index: 10;
+}
+
+.user-section-1__img img {
+  width: 64px;
+  height: 64px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.user-section-1__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-text {
+  font-size: 16px;
+  color: var(--pale-blue);
+}
+
+.user-name {
+  font-size: 24px;
+  color: #fff;
+}
+
+.user-card__section-2 {
+  position: relative;
+  top: -12px;
+  padding-top: 12px;
+  height: 80px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--dark-blue);
+}
+
+.user-card__section-2 nav {
+  height: 100%;
+}
+
+.user-card__section-2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.user-card__section-2 a {
+  color: var(--desaturated-blue);
+}
+
+@media screen and (min-width: 1024px) {
+
+  .user-card {
+    width: 255px;
+    height: 520px;
+  }
+  
+  .user-card__section-1 {
+    padding: 0 29px;
+    height: 355px;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-start;
+  }
+
+  .user-section-1__img img {
+    width: 78px;
+    height: 78px;
+  }
+
+  .user-text {
+    margin-bottom: 10px;
+  }
+
+  .user-name {
+    font-size: 34px;
+    width: 6ch;
+  }
+
+  .user-card__section-2 {
+    height: 175px;
+  }
+
+  .user-section-2__ul {
+    padding: 30px 33px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+  }
+
+  .user-section-2__ul li {
+    width: 100%;
+  }
+ 
+
+}
