@@ -22,8 +22,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Andersonvb/time-tracking-react)
+- Live Site URL: [Site](https://time-tracking-react.vercel.app/)
 
 ## My process
 
