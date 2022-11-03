@@ -1,4 +1,4 @@
-.main-container {
+.container {
   padding: 80px 24px;
   display: grid;
   grid-template-columns: 1fr;
@@ -6,10 +6,30 @@
   background-color: var(--very-dark-blue);
 }
 
-@media screen and (min-width: 1024px) {
+.item {
+  padding: 10px 0;
+  border: 1px solid red;
+}
 
+@media screen and (min-width: 1024px) {
   .main-container {
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+  }
+
+  .container {
+    grid-template-columns: min-content min-content min-content min-content;
     grid-template-rows: auto auto;
+  }
+
+  .item {
+    padding: 13px 13px;
+  }
+
+  .item-1 {
+    grid-row: 1 / 3;
   }
 }
